@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    font-size: 1.8rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header nav .container{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav .container li{
+    margin: 1%;
+    cursor: pointer;
+}
+
+header nav .container li .menu__image{
+    border-radius: 50%;
+
+}
+
+header nav .container .menu__icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.main{
+text-align: center;
+}
+
+.titulo{
+    width: 500px;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.searcher__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 2px;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 21px;
+}
+
+.searcher__container:hover{
+   
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.searcher{
+    height: 39px;
+    outline: none;
+    width: 425px;
+    margin: 0 10px 0 10px;
+    border: none;
+}
+
+.lupita__icono{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    opacity: 0.4;
+}
+
+.microfono__icono{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.boton__container{
+    margin-top: 0px;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.boton1, .boton2{
+    font-size: 1.9rem;
+    width: fit-content;
+    display: inline;
+}
+
+.boton1{
+    padding-right: 10px;
+}
+
+.boton2{
+    padding-left: 10px;
+}
+
+
+
+.botonA, .botonB{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.botonA:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0px 2px 0 #20212447;
+}
+
+.botonB:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0px 2px 0 #20212447;
+
+}
+
+
+.idiomas{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idiomas a{
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: #dadce0 0.5px solid;
+}
+
+.footer__izquierdo{
+    display: flex;
+}
+
+.footer__izquierdo li, .footer__derecho li{
+    margin: 10px;
+    list-style: none;
+}
+
+.footer__derecho{
+    display: flex;
+}
